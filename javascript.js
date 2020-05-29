@@ -5,9 +5,11 @@ var magic_type = ['necromancy', 'summoning', 'evocation', 'divination', 'cyberma
 var size_place = ['small', 'large', 'tiny', 'vast', 'floating', 'sea-floating']
 var type_place = ['city', 'town', 'hamlet', 'village','principality']
 var name_place = ['Oolong Riche', 'Lastigon', 'Loughborough', 'Mara Mah']
-var day_job = ['sell/s potions to the poor and sick', 'entrance/s lovers for a fee', 'sell/s their fanfiction online', 'heal/s sick pets and cleans windows']
+var day_job = ['sell/s potions to the poor and sick', 'entrance/s lovers for a fee', 'sell/s their fanfiction online', 'heal/s sick pets and clean/s windows']
 var something_awesome = ['kill dragons', 'destroy whole armies', 'obliterate the moon', 'open wormholes']
 var something_sinister = ['have recently fallen in love with an elf', 'are under an eldritch curse', 'plan to enact a coup on the queen']
+
+// argh we need proper grammar with singular and single plural pronouns!!
 
 function getItem(list) {
 
