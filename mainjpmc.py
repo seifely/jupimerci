@@ -10,3 +10,7 @@ def index():
     text_description = make_Text(pn)
 
     return (render_template('index.html') % text_description)
+
+if __name__ == "__main__":
+    app.debug = True
+    app.run(host = '127.0.0.1', port = 5000)
