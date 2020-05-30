@@ -1,9 +1,5 @@
 import random
 import pandas as pd # first step works with just csv files as data storage, could upgrade to database
-import pickle
-import names as ns
-
-
 
 #  pull in stored data
 col_list = ["Name", "Adjective", "MagicType", "SizePlace", "TypePlace", "NamePlace",
