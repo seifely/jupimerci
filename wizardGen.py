@@ -43,11 +43,12 @@ def make_Text(pnoun):
                      "but have been known to %s in the past. Rumour has it %s are %s." % (
                      nm, adj, mgtyp, szplc, typplc, nmplc, pnoun, dyjb, smthaws, pnoun.lower(), smthsin)
 
-    if pn == "They":
+    if pnoun == "They":
         return plural_pronoun
     else:
         return single_pronoun
 
-pronoun = ["He", "She", "They"]
-pn = get_Var(pronoun)
-print(make_Text(pn))
+if __name__ == "__main__":
+    pronoun = ["He", "She", "They"]
+    pn = get_Var(pronoun)
+    print(make_Text(pn))
